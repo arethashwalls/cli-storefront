@@ -1,0 +1,23 @@
+{
+  "name": "cli-storefront",
+  "version": "1.0.0",
+  "description": "A CLI app approximating an online storefront built for UA Coding Bootcamp.",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arethashwalls/cli-storefront.git"
+  },
+  "author": "Aretha SH Walls",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arethashwalls/cli-storefront/issues"
+  },
+  "homepage": "https://github.com/arethashwalls/cli-storefront#readme",
+  "dependencies": {
+    "inquirer": "^6.2.1",
+    "mysql": "^2.16.0"
+  }
+}
