@@ -38,5 +38,30 @@ Finally, I define the core app functions on **lines 34-124**:
 
 ### Bamazon in action:
 
-![Opening Bamazon](preview/preview1.gif)
+#### Opening Bamazon:
 
+![A table of data appears](preview/preview1.gif)
+
+#### Making a purchase:
+
+![The customer inputs an ID and quantity and a success message displays](preview/preview2.gif)
+
+#### Validation of product IDs:
+
+![The customer inputs several invalid IDs which are rejected](preview/preview3.gif)
+
+#### Validation of quantity:
+
+![The customer inputs several invalid quantities which are rejected](preview/preview4.gif)
+
+#### Insufficient stock:
+
+![The customer orders 5 leather jackets and is declined](preview/preview5.gif)
+
+#### Closing the application:
+
+![The customer choses 'No' when asked whether they'd like to make another purchase and the app closes](preview/preview6.gif)
+
+#### Out of stock items are removed from the table:
+
+![A table of items without item 9](preview/preview7.png)
