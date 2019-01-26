@@ -35,3 +35,8 @@ Finally, I define the core app functions on **lines 34-124**:
 * On **lines 52-75**, I define the `askPurchase` function, which prompts the user for an item ID and quantity to purchase (and calls the validation functions on each) then calls `makePurchase` on the result.
 * On **lines 76-101**, I define the `makePurchase` function, which filters the ordered item from the database data, queries the database to determine the quantity available, and makes the purchase if there's sufficient stock or alerts the customer if there isn't. After the purchase is made, I call the `restart` function.
 * On **lines 102-123**, I define the restart function, which removes any items with a quantity of 0 from the database then presents the customer with the option of making another purchase and closes the connection if they decline.
+
+### Bamazon in action:
+
+![Opening Bamazon](preview/preview1.gif)
+
