@@ -86,7 +86,7 @@ const makePurchase = (itemId, quantity, allData) => {
         orderedItem = res[0];
         //If there's insufficient stock, the restart function runs right away:
         if(quantity > orderedItem.stock_quantity) {
-            console.log('Oops! Bamazon is unable to fufill your order due to insufficient stock.');
+            console.log('Oops! Bamazon is unable to fufill your order due to insufficient stock.\n');
             restart();
         //If there's sufficient stock, the database is updated *then* the restart function runs:
         } else {
